@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bg-site-pod
+spec:
+  containers:
+  - name: nginx
+    image: lolgg/bg-site:latest
+    ports:
+    - containerPort: 80
